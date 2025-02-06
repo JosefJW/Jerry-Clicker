@@ -21,9 +21,9 @@ jerry.addEventListener("click", function(event) {
 
     if (music.duration > 0 && !music.paused || music.paused) {
         music.play();
+        music.volume = 0.005;
     }
 
-    //createFallingJerry(event.clientX, event.clientY);
 });
 /**
 function createFallingJerry(x, y) {
