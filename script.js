@@ -6,6 +6,7 @@ const count = document.getElementById('jerry-count');
 const music = new Audio('seinfeld-theme_1.mp3');
 music.volume = 0.05;
 music.loop = true;
+music.play();
 
 const sound_effect1 = new Audio('soundeffect1.mp3')
 const sound_effect2 = new Audio('soundeffect2.mp3')
