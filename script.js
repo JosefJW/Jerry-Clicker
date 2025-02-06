@@ -18,7 +18,7 @@ jerry.addEventListener("click", function() {
     jerries += 1;
     count.innerText = "Jerry Count: " + jerries;
     sound_effects[Math.floor(Math.random() * sound_effects.length)].play();
-    if (music.duration > 0 && !music.paused) {
+    if (music.duration > 0 && !music.paused || music.paused) {
         music.play();
     }
 });
